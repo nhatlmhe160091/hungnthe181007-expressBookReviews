@@ -1,0 +1,5 @@
+Command:
+curl -sS -X POST http://127.0.0.1:5001/customer/login -H 'Content-Type: application/json' -d '{"username":"hungnthe181007","password":"BookstorePass123"}'
+
+Output:
+{"message":"Login successful","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imh1bmdudGhlMTgxMDA3IiwiaWF0IjoxNzg2MjE5OTU5LCJleHAiOjE3ODYyMjM1NTl9.HbNFn7O9lCNLeYvE0-0x2neAIy36w9YOh0mTdf7bQsc"}

@@ -1,0 +1,13 @@
+Command:
+curl -sS https://api.github.com/repos/nhatlmhe160091/hungnthe181007-expressBookReviews | jq '{full_name, private, fork, parent: {full_name: .parent.full_name, html_url: .parent.html_url}}'
+
+Output:
+{
+  "full_name": "nhatlmhe160091/hungnthe181007-expressBookReviews",
+  "private": false,
+  "fork": true,
+  "parent": {
+    "full_name": "ibm-developer-skills-network/expressBookReviews",
+    "html_url": "https://github.com/ibm-developer-skills-network/expressBookReviews"
+  }
+}

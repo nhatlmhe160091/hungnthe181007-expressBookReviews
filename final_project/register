@@ -1,0 +1,5 @@
+Command:
+curl -sS -X POST http://127.0.0.1:5001/register -H 'Content-Type: application/json' -d '{"username":"hungnthe181007","password":"BookstorePass123"}'
+
+Output:
+{"message":"User hungnthe181007 successfully registered"}

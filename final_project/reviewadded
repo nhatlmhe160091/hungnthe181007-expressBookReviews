@@ -1,0 +1,5 @@
+Command:
+curl -sS -X PUT http://127.0.0.1:5001/customer/auth/review/1 -H 'Content-Type: application/json' -H 'Authorization: Bearer <JWT_TOKEN_FROM_LOGIN>' -d '{"review":"A powerful and memorable novel."}'
+
+Output:
+{"message":"Review added or updated successfully","reviews":{"hungnthe181007":"A powerful and memorable novel."}}

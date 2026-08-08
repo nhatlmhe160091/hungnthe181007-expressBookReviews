@@ -1,0 +1,5 @@
+Command:
+curl -sS 'http://127.0.0.1:5001/author/Chinua%20Achebe'
+
+Output:
+{"1":{"author":"Chinua Achebe","title":"Things Fall Apart","reviews":{}}}
